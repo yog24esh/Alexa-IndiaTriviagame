@@ -1,0 +1,487 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "india trivia game",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "StateName",
+                            "type": "AMAZON.US_CITY"
+                        },
+                        {
+                            "name": "Capital",
+                            "type": "AMAZON.US_CITY"
+                        },
+                        {
+                            "name": "StatehoodYear",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        },
+                        {
+                            "name": "VehicleCode",
+                            "type": "vehicleCode"
+                        },
+                        {
+                            "name": "OfficialLanguage",
+                            "type": "AMAZON.Language"
+                        }
+                    ],
+                    "samples": [
+                        "{StateName}",
+                        "tell me about {StateName}",
+                        "{StateName} information"
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "start a quiz",
+                        "start a quiz game",
+                        "and start a quiz",
+                        "and quiz me",
+                        "for a quiz",
+                        "a quiz"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "vehicleCode",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "AP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CG"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GJ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JK"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JH"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "KA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "KL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MH"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ML"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MZ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RJ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SK"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UK"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CH"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PY"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "stateNameSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "AndhraPradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ArunachalPradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Assam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bihar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chhattisgarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Goa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gujrat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Haryana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HimachalPradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JammuandKashmir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jharkhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Karnataka"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kerala"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MadhyaPradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Maharashtra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manipur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meghalaya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mizoram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nagaland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Odisha"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Punjab"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rajasthan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sikkim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TamilNadu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Telangana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tripura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UttarPradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Uattrakhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WestBengal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AndamanandNicobarIslands"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chandigarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DadraandNagarHaveli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DamanandDiu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lakshadweep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Puducherry"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
